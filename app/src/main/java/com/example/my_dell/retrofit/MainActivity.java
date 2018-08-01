@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<Data> call, Throwable t) {
-
+                Toast.makeText(getApplicationContext(),"Wrong",Toast.LENGTH_LONG).show();
             }
         });
     }
